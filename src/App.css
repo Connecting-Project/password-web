@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&display=swap');
+
+.container{
+  width: 980px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform:translate(-50%, -50%);
+  letter-spacing: -1px;
+}
+
+.paper{
+  margin: 8px;
+  padding-top: 5px;
+}
+
+.paper-custom{
+  margin: 8px;
+  padding: 10px 40px 30px;
+}
+
+.result-box{
+  margin: 10px 40px 20px 40px;
+  width: 880px;
+  font-size: 2.5em;
+  line-height: 40px;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  
+}
+
+.line{
+  border: 1px solid rgb(214 214 214);
+}
+
+.length-box{
+  width: 400px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 10px;
+}
+
+.title{
+  font-size: 1.2em;
+  font-weight: 500;
+  line-height: 60px;
+  margin-right: 10px;
+}
+
+.status-box{
+  display: inline-block;
+    width: 400px;
+    height: 160px;
+    margin-left: 44px;
+}
+
+.password_button{
+  
+  display: inline-block;
+  zoom: 1;
+  width: 100%;
+  border: 1px solid #b3b3b3;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 30px;
+  border-radius: 3px;
+  margin-left: 0;
+  background-color: #19416e;
+  border-color: #0c2847;
+  color: #fff;
+  vertical-align: top;
+  text-decoration: none;
+  cursor: pointer;
+  text-align: center;
+}
