@@ -1,0 +1,12 @@
+.gitignore
+linux
+windows
+jetbrains
+vscode
+macOS
+LICENSE
+*.md
+node_modules
+npm-debug.log
+.eslintcache
+LICENSE
