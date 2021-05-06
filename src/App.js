@@ -34,7 +34,7 @@ function App() {
   useEffect(() => {
     axios({
       method: `POST`,
-      url:`https://password.hawaiian-pizza.gq/password/generate`,
+      url:`https://password.hawaiian-pizza.pw/password/generate`,
       data:{
         boolLower : true,
         boolNum: true,
@@ -83,7 +83,7 @@ function App() {
   const onClickEvent = () => {
     axios({
       method: 'POST',
-      url:`https://password.hawaiian-pizza.gq/password/generate`,
+      url:`https://password.hawaiian-pizza.pw/password/generate`,
       data: {
         boolLower: status.boolLower,
         boolNum: status.boolNum,
