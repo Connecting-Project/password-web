@@ -4,7 +4,7 @@ Project made by Hawaiian Pizza.
 
 랜덤 패스워드를 생성하는 웹 - 서버 기반 애플리케이션입니다. 접속정보는 다음과 같습니다. 
 
-* https://calculator.hawaiian-pizza.space/
+* https://password.hawaiian-pizza.space
 
 
 
