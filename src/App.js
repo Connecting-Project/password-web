@@ -225,6 +225,9 @@ const useStyles = makeStyles((theme) => ({
   },
   textField: {
     width: '92%',
+    '@media(max-width: 949px)': {
+      width: '85%',
+    }
   },
   textField2: {
     width: '10ch',
@@ -244,7 +247,6 @@ const useStyles = makeStyles((theme) => ({
       width: '1.5em',
       height: '1.5em'
     },
-    
   },
   radiolabel:{
     "& .MuiTypography-body1":{
@@ -256,7 +258,17 @@ const useStyles = makeStyles((theme) => ({
     "& .MuiSvgIcon-root":{
       fontSize: "29px",
       lineHeight: "65px",
+    },
+    '@media(max-width: 949px)': {
+      verticalAlign: "middle",
+      marginTop: "18px",
+      margin: '0px 1%',
+      padding: '1%',
+      "& .MuiSvgIcon-root":{
+        fontSize: "min(20px, 7vw)",
+      },
     }
+    
   }
 }));
 

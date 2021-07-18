@@ -26,7 +26,6 @@
   line-height: 40px;
   overflow-y: hidden;
   overflow-x: hidden;
-  
 }
 
 .line{
@@ -34,10 +33,9 @@
 }
 
 .length-box{
-  width: 400px;
+  width: 100%;
   display: inline-block;
   vertical-align: top;
-  margin-left: 10px;
 }
 
 .title{
@@ -49,9 +47,8 @@
 
 .status-box{
   display: inline-block;
-    width: 400px;
-    height: 160px;
-    margin-left: 44px;
+  width: 100%;
+  min-height: 180px;
 }
 
 .password_button{
@@ -72,4 +69,34 @@
   text-decoration: none;
   cursor: pointer;
   text-align: center;
+}
+
+@media only screen and (max-width: 949px) {
+  .container{
+    width: 80%;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+
+  .result-box{
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+
+  .status-box{
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 430px) {
+  .result-box{
+    width: 100%;
+    margin-left: min(53px,2%);
+    margin-right: min(53px,2%);
+  }
+
+  .paper-custom{
+    padding: 10px 15px 30px;
+  }
 }
